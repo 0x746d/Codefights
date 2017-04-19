@@ -216,6 +216,8 @@ def spamDetection(messages, spamSignals):
 
     return out_message
 
+# Test cases
+
 print(spamDetection([["Sale today!","2837273"],
  ["Unique offer!","3873827"],
  ["Only today and only for you!","2837273"],
