@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 def recurringTask(firstDate, k, daysOfTheWeek, n):
 
     days_of_week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-    week = ["Thursday", 'Wednesday', 'Tuesday', 'Monday', 'Sunday', 'Saturday', 'Friday']
+    week = ['Thursday', 'Wednesday', 'Tuesday', 'Monday', 'Sunday', 'Saturday', 'Friday']
     dates = []
 
     count = 0
@@ -58,4 +58,5 @@ def recurringTask(firstDate, k, daysOfTheWeek, n):
 
     return dates[:n]
 
+# Test case
 print(recurringTask("01/02/2100", 4, ["Sunday", "Monday", 'Tuesday'], 8))
